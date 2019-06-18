@@ -128,7 +128,19 @@ function response(room, msg, sender, isGroupChat, replier, imageDB) {
     if(msg ==".estj"){
     	  replier.reply("Te(외향적적사고)"+"\n"+"Si(내향적감각)"+"\n"+"Ne(외향적직관)"+"\n"+"Fi(내향적감정)")
     }
+    if(msg ==".isfp"){
+    	  replier.reply("Fi(내향적감정)"+"\n"+"Se(외향적감각)"+"\n"+"Ni(내향적직관)"+"\n"+"Te(외향적사고)")
+    }
+    if(msg == "비오는날엔"){
+          replier.reply("Stay here - https://youtu.be/MgsAqBd1HOQ")
+    }
+    if(msg ==".istj"){
+    	  replier.reply("Si(내향적감각)"+"\n"+"Te(외향적사고)"+"\n"+"Fi(내향적감정)"+"\n"+"Ne(외향적직관)")
+    }
 
+    if(msg ==".isfj"){
+    	  replier.reply("Si(내향적감각)"+"\n"+"Fe(외향적감정)"+"\n"+"Ti(내향적사고)"+"\n"+"Ne(외향적직관)")
+    }
     if(msg ==".esfj"){
     	  replier.reply("Fe(외향적감정)"+"\n"+"Si(내향적감각)"+"\n"+"Ne(외향적직관)"+"\n"+"Ti(내향적사고)")
     }
@@ -149,12 +161,15 @@ function response(room, msg, sender, isGroupChat, replier, imageDB) {
     }
     if(msg =="까니야"){
     	  replier.reply("예스 뭬~스터")
-    	}
-    	if(msg =="돈과 권력에는"){
-    	  replier.reply("만족이 없어")
-    	}
-    	if(msg ==".entp"){
-    	  replier.reply("Ne(외향적직관)"+"\n"+"Ti(내향적사고)"+"\n"+"Fe(외향적감정)"+"\n"+"Si(내향적감각)")
+    }
+    if(msg =="돈과 권력에는"){
+         replier.reply("만족이 없어")
+    }
+    if(msg =="난 너의 겉모습만 바꾸어 주었지"){
+         replier.reply("너의 내면까지 바꾸지는 않았어")
+    }
+    if(msg ==".entp"){
+    	 replier.reply("Ne(외향적직관)"+"\n"+"Ti(내향적사고)"+"\n"+"Fe(외향적감정)"+"\n"+"Si(내향적감각)")
     }
     if (msg.trim()== ".검색어") {
     var u = Utils.getWebText("https://www.naver.com")
