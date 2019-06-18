@@ -1,0 +1,175 @@
+function response(room, msg, sender, isGroupChat, replier, imageDB) {
+    /** @param {String} room - 방 이름
+      * @param {String} msg - 메세지 내용
+      * @param {String} sender - 발신자 이름
+      * @param {Boolean} isGroupChat - 단체채팅 여부
+      * @param {Object} replier - 세션 캐싱 답장 메소드 객체
+      * @param {Object} imageDB - 프로필 이미지와 수신된 이미지 캐싱 객체
+      * @method imageDB.getImage() - 수신된 이미지가 있을 경우 Base64 인코딩 되어있는 JPEG 이미지 반환, 기본 값 null
+      * @method imageDB.getProfileImage() - Base64 인코딩 되어있는 JPEG 프로필 이미지 반환, 기본 값 null
+      * @method replier.reply("문자열") - 메시지가 도착한 방에 답장을 보내는 메소드 */
+    if(msg ==".목표789"){
+    	  replier.reply("789의 목표: 당신의 목표는 세계정복입니다. 계획대로 잘 진행되고 있나요?")
+    }
+    if(msg ==".목표베베"){
+    	  replier.reply("베베의 목표: 당신의 목표는 행복한 가정입니다."+"\n"+"좋은 인연이 금방 나타날꺼에요."+"\n"+"1단계는 잦은기회를만들기")
+    }
+    if(msg ==".목표까니"){
+    	  replier.reply("까니의 목표: 당신의 목표는... 있나요?")
+    } 
+    if(msg ==".목표조똑사"){
+    	  replier.reply("1. 6월까지 47.5 kg 달성"+"\n"
+    	  	+"2. 7월 버스킹공연 마무리잘하기"+"\n"
+    	  	+"3. 8월안에 작업실 & 알바 구하기"+"\n"
+    	  	+"4. [영어공부]500일의썸머 100번"+"\n"
+    	  	+"     listening&speaking(14/100)"+"\n"
+    	   +"5. 올해안에 사운드클라우드 & 유투브 채널 개설"+"\n"
+        +"+ 배려와 사랑을 실천하기♥")
+    }
+    if(msg ==".목표멍멍"){
+    	  replier.reply("멍멍!")
+    	}
+    if(msg ==".목표도레미"){
+    	  replier.reply("도레미의 목표: 고액연봉을 받는 회사로의 이직")
+    	}
+    if(msg ==".목표아기고라니"){
+    	  replier.reply("아기고라니의 목표는 소탈간지 100억 자산가 + 사수랑 이번 주 안에 뽀뽀하기")
+    	}
+    if(msg ==".목표니니"){
+    	  replier.reply("니니의 목표: 한가한 전원생활 그리고 소중한 인터넷 (하트)")
+    	}
+    if(msg ==".목표신키루"){
+    	  replier.reply("신키루의 목표: 사회복무요원 탈출")
+    	}
+    if(msg ==".목표오이"){
+    	  replier.reply("오이의 목표: 6월안에 수국보러가기 ")
+    	}
+    if(msg ==".목표분홍인티제"){
+    	  replier.reply("인티제의 목표: 구체화 중")
+    	}
+    if(msg ==".목표블루"){
+    	  replier.reply("블루의 목표: 전세계에 별장을 짓고 말겠다! ")
+    }
+    if(msg ==".목표나무"){
+    	  replier.reply("나무의 목표: 내 전시장에서 내가 그린 작품으로 연주하기")
+    }
+    if(msg ==".목표포카"){
+    	  replier.reply("포카칩")
+    }
+    if(msg ==".목표꾸"){
+    	  replier.reply("꾸준함 유지하기!!! 꾸우의 목표는 꾸 준함입니다.")
+    }
+    if(msg ==".목표덤블"){
+    	  replier.reply("제 목표는 여러분의 만족입니다.")
+    }
+    if(msg =="덤블아"){
+    	  replier.reply("네. 부르셨나요?")
+    }
+    if(msg =="거짓으로 얻는게 많을수록"){
+    	  replier.reply("진짜로 얻는건 작아져")
+    	}
+    	if(msg =="789 나와라"){
+    	  replier.reply("바쁘신거 같은데? 무슨 용무이시죠?")
+    }
+    if(msg =="멍멍이 바보"){
+    	  replier.reply("멍멍이는 바보 멍청이! :)")
+    }
+    if(msg =="789 바보"){
+    	  replier.reply("아니 여기서 이러시면 안돼요 ㅠㅠ")
+    }
+    if(msg =="오이야"){
+    	   replier.reply("오이도사님 말을 들으면 자다가도 떡이 나와요")
+    }
+    if(msg =="팔구야"){
+    	   replier.reply("무슨일이시죠? 저랑 같이 청소중이세요!")
+    }
+    if(msg =="가진게 없을 땐"){
+    	  replier.reply("오히려 다 가진 것처럼 행동해야해요")
+    	}
+    	if(msg =="맛있으면"){
+    	  replier.reply("0칼로리")
+    	}
+    	if(msg =="789바보"){
+    	  replier.reply("...그만")
+    }
+    if(msg =="아부!"){
+    	  replier.reply("우끽~끼끼끼끽")
+    	}
+    	if(msg =="안녕하세요"){
+    	  replier.reply("안녕하세요!! 환영합니다~")
+    }
+    if(msg =="익스펙토"){
+    	  replier.reply("페트로눔!")
+    	}
+    	if(msg =="산기슭쿵쿵따"){
+    	  replier.reply("슭곰발쿵쿵따")
+    	}
+    	if(msg =="아라비안"){
+    	  replier.reply("나이트~~")
+    	}
+    	
+    	if(msg =="아바다케다브라"){
+    	  replier.reply("형법 제 24장 살인의 죄 제250조(살인, 존속살해) ①사람을 살해한 자는 사형, 무기 또는 5년 이상의 징역에 처한다.")
+    	}
+    	if(msg =="블루야"){
+    	  replier.reply("블루님사랑해요")
+    	}
+    if(msg ==".intj"){
+    	  replier.reply("Ni(내향적직관)"+"\n"+"Te(외향적사고)"+"\n"+"Fi(내향적감정)"+"\n"+"Se(외향적감각)")
+    }
+    if(msg ==".entj"){
+    	  replier.reply("Te(외향적사고)"+"\n"+"Ni(내향적직관)"+"\n"+"Se(외향적감각)"+"\n"+"Fi(내향적감정)")
+
+    if(msg ==".enfj"){
+    	  replier.reply("Fe(외향적감정)"+"\n"+"Ni(내향적직관)"+"\n"+"Se(외향적감각)"+"\n"+"Ti(내향적사고)")
+    }
+    }
+
+    if(msg ==".estj"){
+    	  replier.reply("Te(외향적적사고)"+"\n"+"Si(내향적감각)"+"\n"+"Ne(외향적직관)"+"\n"+"Fi(내향적감정)")
+    }
+
+    if(msg ==".esfj"){
+    	  replier.reply("Fe(외향적감정)"+"\n"+"Si(내향적감각)"+"\n"+"Ne(외향적직관)"+"\n"+"Ti(내향적사고)")
+    }
+    if(msg ==".infp"){
+    	  replier.reply("Fi(내향적감정)"+"\n"+"Ne(외향적직관)"+"\n"+"Si(내향적감각)"+"\n"+"Te(외향적사고)")
+    }
+    if(msg ==".infj"){
+    	  replier.reply("Ni(내향적직관)"+"\n"+"Fe(외향적감정)"+"\n"+"Ti(내향적사고)"+"\n"+"Se(외향적감각)")
+    }
+    if(msg ==".intp"){
+    	  replier.reply("Ti(내향적사고)"+"\n"+"Ne(외향적직관)"+"\n"+"Si(내향적감각)"+"\n"+"Fe(외향적감정)")
+    }
+    if(msg ==".enfp"){
+    	  replier.reply("Ne(외향적직관)"+"\n"+"Fi(내향적감정)"+"\n"+"Te(외향적사고)"+"\n"+"Si(내향적감각)")
+    }
+    if(msg ==".istp"){
+    	  replier.reply("Ti(내향적사고)"+"\n"+"Se(외향적감각)"+"\n"+"Ni(내향적직관)"+"\n"+"Fe(외향적감정)")
+    }
+    if(msg =="까니야"){
+    	  replier.reply("예스 뭬~스터")
+    	}
+    	if(msg =="돈과 권력에는"){
+    	  replier.reply("만족이 없어")
+    	}
+    	if(msg ==".entp"){
+    	  replier.reply("Ne(외향적직관)"+"\n"+"Ti(내향적사고)"+"\n"+"Fe(외향적감정)"+"\n"+"Si(내향적감각)")
+    }
+    if (msg.trim()== ".검색어") {
+    var u = Utils.getWebText("https://www.naver.com")
+    var a = u.split("급상승 검색어 검색어</h3>")
+    var b = a[1].split("11</span>")
+    var c = b[0].replace(/(<([^>]+)>)/g,"")
+    c = c.replace(/\n\n\n/g,"\n").replace(/(?![0-9]+)  /g,"").trim().replace(/(?=(\D))\b/g,".")
+    replier.reply("[실시간 급상승 검색어]\n "+c)
+    }
+}        	
+
+//이 아래 6가지 메소드는 스크립트 액티비티에서 사용하는 메소드들
+function onCreate(savedInstanceState, activity) {}
+function onStart(activity) {}
+function onResume(activity) {}
+function onPause(activity) {}
+function onStop(activity) {}
+function onDestroy(activity) {}
